@@ -1,12 +1,4 @@
 '#
-Topic: Exploring Levels of Hemoglobin for Different Sports
-Name: Filippo Guardassoni
-University: Unimi
-Course: Probabilistic Modeling
-Date: 08/2022
-#'
-
-'#
 if (!requireNamespace("BiocManager", quietly = TRUE)) 
   install.packages("BiocManager") 
 BiocManager::install("RBGL") 
@@ -43,7 +35,7 @@ library(cleandata)
 #==============================================================================
 
 set.seed(1234)
-ais <- read.csv("/Users/amministratore/Documents/Data Science/Second Year/Second Semester/Probabilistic Modelling/Project/probabilistic_project/ais.csv")
+ais <- read.csv("...")
 attach(ais)
 
 #==============================================================================
