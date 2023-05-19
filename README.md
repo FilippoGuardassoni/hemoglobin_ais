@@ -84,10 +84,10 @@ The final model is the Bayesian Network derived from averaging the network const
 # Future work
 There are several limitations to our paper. The first and foremost is the dataset itself. The dataset is in reality a small part of a much bigger research sample; therefore, it could be enlarged with more observations. In addition, the dataset we are working on is unbalanced as presented in Chapter III. This is causing the algorithms not learn properly from raw data without injecting prior knowledge. Furthermore, additional relevant variables could be taken in consideration as well as working directly with an expert of the field. Additionally, the dataset is composed by mixed type of data. In case of a deeper discrete analysis, additional levels for continuous variables could be added to get a more precise estimation. On the other hand, mixed interactions models could be involved. This kind of analysis is certainly useful because for example, the athlete could take appropriate action to ensure their hemoglobin concentrations are at optimal levels. Decisions need to be made around:
 
-• Diet – What to eat on certain days e.g. training days versus taper days
-• Training – When to increase or decrease the intensity and frequency
-• Rest – When to take a rest day or recover after a game/race
-• Illness – How long do you need to recover?
+- Diet: What to eat on certain days e.g. training days versus taper days
+- Training: When to increase or decrease the intensity and frequency
+- Rest: When to take a rest day or recover after a game/race
+- Illness: How long do you need to recover?
 
 It is when interventions such as these can be accounted for in the model the user can implement ‘what if’ scenarios to help make the best decision. Some of these variables can easily be observed but other cannot such as red cell count. This might be a measurement that gets taken once every 2-3 months perhaps, in which case decisions will need to be made without the knowledge of the athletes current red cell count. Fortunately, a Bayesian network can handle this type of uncertainty and missing information.
 
