@@ -62,11 +62,11 @@ The dataset has both continuous and discrete (sex and sports) variables. As the 
 
 ```bash
 ├── dataset
-│   ├── features.csv
+│   ├── ais.csv
 ├── code
-│   ├── urbansoundclassification.py
+│   ├── ais.R
 ├── report
-│   ├── urban_sound_classification_report.pdf
+│   ├── ais_report.pdf
 ├── img
 │   ├── headerheader.jpg      
 ├── LICENSE
